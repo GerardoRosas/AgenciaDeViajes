@@ -1,0 +1,28 @@
+extends ../masterpage/index
+block contenido
+    main.container.mt-5 
+        .row
+            .col-md-5
+                img.img-fluid(src="img/nosotros.jpg", alt="Imagen de Nosotros")
+            .col-md-7
+                h1 #{pagina}
+                blockquote Nulla id nisl gravida, rutrum magna vel, dictum mi. Phasellus in dignissim neque. Vivamus venenatis, augue in hendrerit eleifend, leo mi interdum nisl, at egestas sem metus non arcu. Mauris hendrerit dui pulvinar enim cursus, non fermentum erat hendrerit.
+                p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus bibendum sit amet lorem sit amet iaculis. Praesent ante nisl, euismod ac commodo ac, euismod vel diam. In nisl mauris, rutrum ut ex eget, molestie consequat nibh. 
+
+                p Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam fermentum accumsan dui ut ornare. Suspendisse sit amet efficitur massa. Morbi eleifend lectus quis dictum placerat
+    
+    .listado-iconos
+        .container.mt-5.py-5.text-center
+            .row
+                .col-md-4   
+                    img(src="img/icono_seguridad.svg", class="img-fluid mb-4")
+                    h2.mb-4 Seguridad
+                    p Suspendisse sit amet efficitur massa. Morbi eleifend lectus quis dictum placerat
+                .col-md-4   
+                    img(src="img/icono_destinos.svg", class="img-fluid mb-4")
+                    h2.mb-4 Mejores Destinos
+                    p Suspendisse sit amet efficitur massa. Morbi eleifend lectus quis dictum placerat
+                .col-md-4   
+                    img(src="img/icono_precios.svg", class="img-fluid mb-4")
+                    h2.mb-4 Mejor Precio
+                    p Suspendisse sit amet efficitur massa. Morbi eleifend lectus quis dictum placerat
